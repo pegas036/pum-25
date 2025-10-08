@@ -54,7 +54,7 @@ terminology and use it in your future work.
 
 1. Install [miniconda](https://docs.conda.io/en/latest/miniconda.html) following the instructions for your operating
    system.
-2. Clone the repository: `git clone https://github.com/hubertrybka/pum-24.git`
+2. Clone the repository: `git clone https://github.com/hubertrybka/pum-25.git`
 3. Navigate to the directory: `cd pum-25`
 4. Download datasets from our [dropbox](https://www.dropbox.com/scl/fi/50mnh2dfdr2wgddkwo512/pum24-datasets.zip?rlkey=2woga4c850qivsjwihqmqnpd0&st=vlrg3at6&dl=1) and extract them to `data` directory.
 5. Install environment from the YAML file: `conda env create -n pum-25 -f environment.yml`
