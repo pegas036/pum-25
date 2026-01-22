@@ -47,18 +47,3 @@ def plot_gradient_descent(f, xs):
     plt.ylabel('f(x)')
     plt.plot(xs, [f(x) for x in xs], c='crimson', marker='o')
 
-
-import torch.nn as nn
-
-class NeuralNetwork(nn.Module):
-    def __init__(self, hidden_size):
-        super(NeuralNetwork, self).__init__()
-        self.hidden = nn.Linear(1, hidden_size)  # hidden layer
-        self.output = nn.Linear(hidden_size, 1)  # output layer
-        self.relu = nn.ReLU()  # ReLU activation function
-
-    def forward(self, x):
-        h = self.hidden(x)  # pass the input through the hidden layer
-        h = self.relu(h)  # apply ReLU activation function
-        y = self.output(h)  # pass the result through the output layer
-        return y
