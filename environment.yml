@@ -1,4 +1,4 @@
-name: pum-24
+name: pum-25
 channels:
   - pyg
   - pytorch
@@ -31,3 +31,4 @@ dependencies:
   - streamlit>=1.10.0
   - wandb>=0.18.6
   - gh>=2.55.0
+  - mkl=2024.0.0
