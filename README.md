@@ -25,7 +25,7 @@
 * Lab 3 - Binary classification. Building a classifier model with `scikit-learn`.
 * Lab 4 - Data preprocessing. Building a regression model. Coding a simple app in Streamlit.
 * Lab 5 - Implementing a simple perceptron. Introduction to neural networks with PyTorch.
-* ... (COMING SOON)
+* Lab 6 - Visualizing the training of neural networks. Handwritten digit classification.
 
 ## Course info
 During the semester you will have to complete a series of six laboratory sessions. 
@@ -60,7 +60,7 @@ terminology and use it in your future work.
    system.
 2. Clone the repository: `git clone https://github.com/hubertrybka/pum-25.git`
 3. Navigate to the directory: `cd pum-25`
-4. Download datasets from our dropbox (COMING SOON) and extract them to `data` directory.
+4. Download datasets from our [dropbox](https://www.dropbox.com/scl/fi/x27pgy1dmjy06bkvohn7h/pum25-datasets.zip?rlkey=ka9iwbd31dx3su3pjl66uvlu1&st=ijhr6zji&dl=0) and extract them to `data` directory.
 5. Install environment from the YAML file: `conda env create -n pum-25 -f environment.yml`
 6. Activate the environment: `conda activate pum-25`
 
